@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Problem Solving</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ATM Withdrawal System -->
+    <h2>ATM Withdrawal System</h2>
+    <label>Enter PIN:</label>
+    <input type="password" id="pin" placeholder="Enter your PIN"><br>
+    <label>Enter Amount:</label>
+    <input type="number" id="amount" placeholder="Enter withdrawal amount"><br>
+    <button onclick="withdrawMoney()">Withdraw</button>
+    <p id="result"></p>
+
+    <hr>
+
+    <!-- Online Shopping Discount & Free Shipping -->
+    <h2>Online Shopping Calculator</h2>
+    <label>Enter Order Amount: </label>
+    <input type="number" id="orderAmount" placeholder="Enter order total"><br>
+    <button onclick="calculateTotal()">Calculate</button>
+    <p id="shoppingResult"></p>
+
+    <hr>
+
+    <!-- Student Grading System -->
+    <h2>Student Grading System</h2>
+    <label>Enter Marks: </label>
+    <input type="number" id="marks" placeholder="Enter marks"><br>
+    <label>Enter Attendance (%): </label>
+    <input type="number" id="attendance" placeholder="Enter attendance"><br>
+    <button onclick="getGrade()">Get Grade</button>
+    <p id="gradeResult"></p>
+
+    <hr>
+
+    <!-- Traffic Light System -->
+    <h2>Traffic Light System</h2>
+    <label>Enter Traffic Density (Heavy/Moderate/Light):</label>
+    <input type="text" id="trafficDensity"><br>
+    <button onclick="controlTraffic()">Get Green Time</button>
+    <p id="trafficResult"></p>
+
+    <hr>
+
+    <!-- Movie Ticket Pricing -->
+    <h2>Movie Ticket Price</h2>
+    <label>Enter Age: </label>
+    <input type="number" id="age"><br>
+    <label>Enter Show Time (24-hour format): </label>
+    <input type="number" id="showTime"><br>
+    <button onclick="calculateTicket()">Calculate Ticket Price</button>
+    <p id="ticketResult"></p>
+    <hr>
+    <!-- Job Application Filter -->
+    <h2>Job Application Eligibility</h2>
+    <label>Enter Age: </label>
+    <input type="number" id="jobAge"><br>
+    <label>Enter Experience (Years): </label>
+    <input type="number" id="jobExperience"><br>
+    <label>Enter Qualification: </label>
+    <input type="text" id="jobQualification"><br>
+    <button onclick="checkJobEligibility()">Check Eligibility</button>
+    <p id="jobResult"></p>
+
+    <hr>
+
+    <!-- E-commerce Coupon Redemption -->
+    <h2>E-commerce Coupon System</h2>
+    <label>Order Amount: </label>
+    <input type="number" id="couponAmount"><br>
+    <label>Coupon Code: </label>
+    <input type="text" id="couponCode"><br>
+    <button onclick="applyCouponCode()">Apply Coupon</button>
+    <p id="couponResult"></p>
+
+    <hr>
+
+    <!-- Fitness Membership Plan -->
+    <h2>Gym Membership Plan</h2>
+    <label>Choose Plan (Basic/Premium/VIP): </label>
+    <input type="text" id="membershipPlan"><br>
+    <label>Need Trainer? (yes/no): </label>
+    <input type="text" id="needTrainer"><br>
+    <label>Need Diet Plan? (yes/no): </label>
+    <input type="text" id="needDiet"><br>
+    <button onclick="suggestMembership()">Get Plan</button>
+    <p id="membershipResult"></p>
+
+    <hr>
+
+    <!-- Electricity Bill Calculation -->
+    <h2>Electricity Bill Calculator</h2>
+    <label>Enter Units Consumed: </label>
+    <input type="number" id="unitsConsumed"><br>
+    <label>Enter Time of Day (Hour): </label>
+    <input type="number" id="billTime"><br>
+    <button onclick="calculateBill()">Calculate Bill</button>
+    <p id="billResult"></p>
+
+    <hr>
+
+    <!-- Flight Ticket Booking System -->
+    <h2>Flight Ticket Price Calculator</h2>
+    <label>Class Type (Economy/Business/First): </label>
+    <input type="text" id="flightClass"><br>
+    <label>Luggage Weight (kg): </label>
+    <input type="number" id="luggageWeight"><br>
+    <label>Are you a Student? (yes/no): </label>
+    <input type="text" id="isStudent"><br>
+    <label>Are you a Senior Citizen? (yes/no): </label>
+    <input type="text" id="isSenior"><br>
+    <button onclick="calculateFlightPrice()">Get Price</button>
+    <p id="flightResult"></p>
+
+   
+
+    <script src="atmwithdrawl.js"></script>
+    <script src="shoppingdiscount.js"></script>
+    <script src="studentgradingsystem.js"></script>
+    <script src="trafficlight.js"></script>
+    <script src="movieticket,js"></script>
+
+    <script src="jobapplication.js"></script>
+    <script src="ecommercecoupon.js"></script>
+    <script src="fitnessmembership.js"></script>
+    <script src="electricitybill.js"></script>
+    <script src="flightticketbooking.js"></script>
+
+</body>
+</html>
